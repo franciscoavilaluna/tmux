@@ -23,8 +23,7 @@
    script:
 
    ```bash
-   bash <(curl -s
-   https://raw.githubusercontent.com/franciscoavilaluna/tmux/main/scripts/install.sh)
+   bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/tmux/main/scripts/install.sh)
    ```
 
 2. #### Start Tmux
