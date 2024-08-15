@@ -15,17 +15,33 @@
 
 * #### Minimal Statusbar
 
-## Instalation
-* #### Make a backup of your current tmux configuration _(if needed)_
-`mv .config/tmux{,.bak}`
-* #### Clone the repo
-`git clone https://github.com/franciscoavilaluna/tmux `
+## Installation
 
-* #### Move the files to the `.config` directory
-`mv tmux/ .config/`
+1. #### Run the Installation Script
 
-* #### Start Tmux!
-`tmux`
+   Execute the following command to download and run the installation
+   script:
+
+   ```bash
+   bash <(curl -s
+   https://raw.githubusercontent.com/franciscoavilaluna/tmux/main/scripts/install.sh)
+   ```
+
+2. #### Start Tmux
+
+   You can now start Tmux using the following command:
+
+   `tmux`
+
+## Additional Notes
+
+- #### Updating Configuration: To update the configuration, pull the latest
+  changes from the repository:
+
+  ```bash
+  cd ~/.config/tmux
+  git pull origin main
+  ```
 
 ## File Structure
 ```
