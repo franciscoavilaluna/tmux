@@ -22,7 +22,7 @@
    Execute the following command to download and run the installation script:
 
    ```bash
-   bash <(curl -s https://raw.githubusercontent.com/franciscoavilaluna/tmux/main/scripts/install.sh)
+   curl -s https://raw.githubusercontent.com/franciscoavilaluna/tmux/main/scripts/install.sh | bash
    ```
 
 2. #### Start Tmux
